@@ -2,37 +2,120 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1, h2, h3, .title, header{
+  font-family: 'Raleway', sans-serif !important;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h3{
+  color: #91091E !important;
+  font-weight: 400 i !important;
 }
 
-.App-header {
-  background-color: #282c34;
+.hrms-section{
+  padding-top: 100px !important;
+  padding-bottom: 100px !important;
+}
+
+.ui.main.container{
+  margin-top: 4em;
+}
+
+.hrms-main{
+  background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
+  url(img/backGround.jpg) no-repeat 50% 50%  !important;
+  background-size: cover !important;
+  position: relative;
+}
+
+.hrms-main.segment{
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.hrms-header-content{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  min-width: 80%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.hrms-logo{
+  display: block;
+  width: 80px;
+  height: 80px;
+  color: #fff;
+  font-size: 26px;
+  line-height: 70px !important;
+  text-align: center;
+  border: 1px solid #fff;
+  border-style: groove;
 }
+
+.fixed{
+  background-color: rgba(0,0,0,0.7) !important;
+  padding-right: 8% !important;
+  padding-left: 8% !important; 
+}
+
+.secondary.pointing.menu .toc.item{
+  display: none !important;
+}
+
+h1.ui.header{ 
+  font-size: 5em;
+  font-weight: 200;
+  letter-spacing: 5px;
+}
+
+h1.ui.header::first-letter{
+  color: #005A8D !important;
+}
+
+.primary{
+  background-color: #005A8D !important;
+}
+
+.primary:hover{
+  background-color: #022E57 !important;
+}
+
+.hrms-button{
+  font-weight: 300 !important;
+  margin-top: 25px !important;
+}
+
+/* job seeker list */
+h2.hrms-h2{
+  font-size: 2.2em !important;
+}
+
+#jobSeekers{
+  background-color: rosybrown;
+}
+
+/* employer list */
+h2.hrms-h2{
+  font-size: 2.2em !important;
+}
+
+#employers{
+  background-color: #F7D6BF;
+}
+
+/* employer list */
+h2.hrms-h2{
+  font-size: 2.2em !important;
+}
+
+#jobPostings{
+  background-color: #B0CAC7;
+}
+
+.content{
+  font-family: 'PT Serif', serif;
+  font-size: 20px !important;
+  font-weight: 20% !important;
+  line-height:25px;
+  
+}
+
